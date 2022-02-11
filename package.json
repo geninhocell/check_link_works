@@ -1,0 +1,19 @@
+{
+  "author": "geninhocell@gmail.com",
+  "name": "lib-markdown",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:dev": "tsc && node build/index.js",
+    "dev": "ts-node-dev --transpile-only --ignore-watch node_modules --respawn src/index.ts"
+  },
+  "dependencies": {
+    "chalk": "^5.0.0"
+  },
+  "devDependencies": {
+
+  }
+}
